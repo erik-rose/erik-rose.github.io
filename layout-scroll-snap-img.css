@@ -1,0 +1,59 @@
+/*Enables scroll snap*/
+html {
+	scroll-snap-type: y mandatory;
+}
+
+/*Prevents white space*/
+body {
+	overflow-x: hidden;
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/*Sets div size and positions for scroll to snap to*/
+.section {
+	margin: 0; 
+	padding: 0; 
+	width: 100vw;
+	height: 100vh;
+	scroll-snap-align: start;
+}
+
+/*Needs to have same image as in preload js*/
+#section1 {
+	background-image: url("img/front_page_image4.jpg"); 
+	background-size: cover;
+}
+
+#section2 {
+	background-color: white;
+	margin-bottom: 10px;
+}
+
+#section3 {
+	background-color: blue;
+}
+
+/*Sets position of services buttons and sets their transform length*/
+img.services {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 3px;
+	transition: transform .2s;
+	position: relative;
+	top: 10px;
+}
+
+/*Enables transform on hover and sets scale at end of transform*/
+img.services:hover {
+	transform: scale(1.25);
+}
+
+/*Resizes logo*/
+img.logo {
+	width: 10%;
+}
+
