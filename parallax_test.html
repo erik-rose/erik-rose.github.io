@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+  position: relative;
+  opacity: 0.85;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("img/front_page_image4.jpg");
+  min-height: 65%;
+}
+
+.bgimg-2 {
+  background-image: url("img/map.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("img/handing.jpg");
+  min-height: 400px;
+}
+
+.bgimg-4 {
+  background-image: url("img/tablet.jpg");
+  min-height: 65%;
+}
+
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+p {
+  font-size: 17px;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+    background-attachment: scroll;
+  }
+}
+</style>
+</head>
+<body>
+<img src="img/front_page_image4.jpg" style="display: none;"/>
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border">H-NET</span>
+  <br/>
+  <br/>
+  <span class="border">COMMONS</span>
+  </div>
+</div>
+
+<div style="color: rgb(27, 27, 27);background-color:white;text-align:center;padding:30px 80px;text-align: justify;">
+  <p>H-Net: Humanities and Social Sciences Online is an independent, non-profit scholarly association that offers an open academic space for scholars, teachers, advanced students and related professionals. Our vision is to see the humanities and social sciences transformed by the immense potential of digital technologies and oriented around moderated intellectual exchange, collaborative production, and then open dissemination of knowledge.</p>
+  <p>H-Net's work is guided and informed by our commitment to: high standards of scholarly, pedagogical and professional behavior; a pluralistic and democratic way of decision-making; and the principles of Open Access.</p>
+</div>
+
+<div class="bgimg-2">
+  <div class="caption">
+  <span class="border" style="background-color:font-size:25px;color: #f7f7f7;">NETWORKS</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>Description of our networks.</p>
+  </div>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+  <span class="border" style="background-color:font-size:25px;color: #f7f7f7;">SERVICES</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>Description of our services.</p>
+  </div>
+</div>
+
+<div class="bgimg-4">
+  <div class="caption">
+  <span class="border">ABOUT H-NET</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>H-Net: Humanities & Social Sciences Online</p>
+  <p>Copyright © 1993 - 2019. This work is licensed under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License.</p>
+  </div>
+</div>
+
+</body>
+</html>
