@@ -13,10 +13,10 @@ body, html {
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
   position: relative;
   opacity: 0.85;
-  background-attachment: fixed;
+  background-attachment: fixed; /*need to replace for performance*/
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; /*need to replace for performance*/
 
 }
 .bgimg-1 {
@@ -71,7 +71,7 @@ p {
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
   .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
-    background-attachment: scroll;
+    background-attachment: scroll; /*needs to match parallaxing method*/
   }
 }
 </style>
