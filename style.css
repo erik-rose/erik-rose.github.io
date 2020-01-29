@@ -124,6 +124,16 @@ a:hover {
     position: relative;  
 }
 
+.services-logo-container {
+    padding-top: 200px;
+    padding-left: 200px;
+    transition: all ease-in-out .2s;
+}
+
+.red-shape:hover {
+    transform: scale(1.2);
+}
+
 .bg4 {
     background-image: url('img/front_page_pic_2.jpg');
     background-size: cover;
