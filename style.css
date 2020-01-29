@@ -90,6 +90,23 @@ a:hover {
     margin-left: 10%;
     margin-top: 10%;
     width: 20%;
+    float: left;
+}
+
+#wide-variety-container {
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 20%;
+    float: left;
+}
+
+#alert-container {
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 20%;
+    float: left;
 }
 
 .subheading {
@@ -97,4 +114,11 @@ a:hover {
     font-family: sans-serif;
     padding-top: 2%;
 
+}
+
+.bg3 {
+    background-color: #ffffff;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;  
 }
