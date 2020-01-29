@@ -69,7 +69,7 @@ a:hover {
 .bg2 {
     background-color: #b5b5b6;
     background-size: cover;
-    min-height: 100vh;
+    min-height: 106vh;
     position: relative;
 }
 
@@ -120,6 +120,6 @@ a:hover {
 .bg3 {
     background-color: #ffffff;
     background-size: cover;
-    min-height: 100vh;
+    min-height: 106vh;
     position: relative;  
 }
