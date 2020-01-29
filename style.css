@@ -123,3 +123,22 @@ a:hover {
     min-height: 106vh;
     position: relative;  
 }
+
+.bg4 {
+    background-image: url('img/front_page_pic_2.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+.footer-container {
+    position: relative
+}
+
+.footer {
+    color:#ddd;
+    background-color:#282E34;
+    text-align:center;
+    padding:50px 80px;
+    text-align: justify;
+}
