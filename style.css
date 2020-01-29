@@ -128,9 +128,21 @@ a:hover {
     padding-top: 200px;
     padding-left: 200px;
     transition: all ease-in-out .2s;
+    float: left;
+}
+.red-shape {
+    
 }
 
 .red-shape:hover {
+    transform: scale(1.2);
+}
+
+.green-shape {
+
+}
+
+.green-shape:hover {
     transform: scale(1.2);
 }
 
