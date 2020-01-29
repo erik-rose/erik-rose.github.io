@@ -142,3 +142,7 @@ a:hover {
     padding:50px 80px;
     text-align: justify;
 }
+
+div.footer {
+    font-family: sans-serif;
+}
