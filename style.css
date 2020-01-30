@@ -80,6 +80,11 @@ a:hover {
     font-size: 16px;
   }
 
+.dropdown-content span:hover {
+    color: white;
+    background-color: rgb(161, 161, 161);
+}
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
