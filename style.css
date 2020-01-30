@@ -131,7 +131,7 @@ a:hover {
     float: left;
 }
 .red-shape {
-    position: fixed;
+    display: flex;
 }
 
 .red-shape:hover {
@@ -139,7 +139,7 @@ a:hover {
 }
 
 .green-shape {
-    position: fixed;
+    display: flex;
 }
 
 .green-shape:hover {
