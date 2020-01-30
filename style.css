@@ -130,8 +130,8 @@ a:hover {
     padding-top: 200px;
     padding-left: 200px;
     transition: all ease-in-out .2s;
-    float: left;
 }
+
 .red-shape {
     display: flex;
 }
@@ -145,6 +145,53 @@ a:hover {
 }
 
 .green-shape:hover {
+    transform: scale(1.2);
+}
+
+.column1 {
+    float: left;
+}
+
+.yellow-shape {
+    display: flex;
+    float: right;
+    margin-right: 80%;
+}
+
+.yellow-shape:hover {
+    transform: scale(1.2);
+}
+
+.purple-shape {
+    display: flex;
+    float: right;
+    margin-right: 80%;
+    margin-top: 1%;
+}
+
+.purple-shape:hover {
+    transform: scale(1.2);
+}
+
+.blue-shape {
+    display: flex;
+    float: right;
+    margin-right: 80%;
+    margin-top: -4%;
+}
+
+.blue-shape:hover {
+    transform: scale(1.2);
+}
+
+.orange-shape {
+    display: flex;
+    float: right;
+    margin-right: 80%;
+    margin-top: 1.4%;
+}
+
+.orange-shape:hover {
     transform: scale(1.2);
 }
 
