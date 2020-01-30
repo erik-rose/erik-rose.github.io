@@ -38,10 +38,11 @@ html, body {
 }
 
 .menu-links {
-    padding-top: 70px;
-    padding-right: 50px;
+    padding-top: 120px;
+    padding-right: 100px;
     font-family: sans-serif;
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: bold;
     display: block;
     text-align: right;
 }
@@ -64,6 +65,7 @@ a:hover {
 
 #page-one-text {
     opacity: 100%;
+    font-size: 18px;
 }
 
 .bg2 {
@@ -76,7 +78,7 @@ a:hover {
 #p2-header {
     text-align: center;
     font-size: 50px;
-    padding-top: 30px;
+    padding-top: 40px;
     font-family: sans-serif;
     font-weight: bolder;
 }
