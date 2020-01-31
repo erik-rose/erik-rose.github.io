@@ -32,8 +32,8 @@ html, body {
 }
 
 #h-net-logo {
-    padding-left: 80px;
-    padding-top: 30px;
+    padding-left: 9%;
+    padding-top: 8%;
     width: 35%;
     height: 45%;
 }
@@ -68,7 +68,7 @@ a:hover {
     background-color: #f9f9f9;
     min-width: 100px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    padding: 12px 16px;
+    padding: 1.2% 1.6%;
     z-index: 1;
 }
 
@@ -93,8 +93,8 @@ a:hover {
 #page-one-text-container {
     background-color: white;
     opacity: 70%;
-    padding: 10px 10px;
-    margin: 20px;
+    padding: 1% 1%;
+    margin: 2%;
     border-radius: 10px;
 }
 
@@ -115,7 +115,7 @@ a:hover {
 #p2-header {
     text-align: center;
     font-size: 50px;
-    padding-top: 40px;
+    padding-top: 4%;
     font-family: sans-serif;
     font-weight: bolder;
 }
@@ -144,8 +144,8 @@ a:hover {
 #alert-container {
     text-align: center;
     margin-left: 10%;
-    margin-top: 10%;
-    width: 20%;
+    margin-top: 9.5%;
+    width: 22%;
     float: left;
 }
 
@@ -197,7 +197,7 @@ a:hover {
 
 .services-description {
     background-color: white;
-    padding: 30px 20px;
+    padding: 3% 2%;
     width: 30vw;
     height: 40vh;
     position: absolute;
@@ -218,7 +218,7 @@ a:hover {
 .footer {
     color:#ddd;
     background-color:#282E34;
-    padding: 25px 40px;
+    padding: 2.5% 4%;
 }
 
 div.footer {
