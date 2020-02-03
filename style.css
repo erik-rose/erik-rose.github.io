@@ -197,6 +197,10 @@ a:hover {
     opacity: 0.2;
 }
 
+.shapes:hover + .services-description {
+    font-size: 30px;
+}
+
 .services-description {
     background-color: white;
     width: 30vw;
