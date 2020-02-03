@@ -164,10 +164,11 @@ a:hover {
 }
 
 .services-logo-container {
-    padding-top: 25%;
+    padding-top: 15%;
+    padding-bottom: 15%;
     float: left;
     padding-left: 8%;
-    scale: 0.6;
+    scale: 0.4;
 }
 
 .area {
@@ -204,7 +205,7 @@ a:hover {
     position: absolute;
     top: 60%;
     left: 60%;
-    margin: -20vw 0 0 -15vh; 
+    margin: -15vw 0 0 -15vh; 
     float: right;
     border-style: solid;
     border-width: 5px;
