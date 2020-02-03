@@ -213,6 +213,8 @@ a:hover {
 
 .footer-container {
     position: relative;
+    height: 34%;
+    width: 100%;
 }
 
 .footer {
@@ -229,7 +231,9 @@ div.footer {
 
 .foot-logo {
     float: right;
-    width: 14.7%;
+    width: 15%;
+    height: 100%;
+    object-fit: cover;
 }
 
 p.first-line {
