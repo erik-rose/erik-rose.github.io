@@ -213,7 +213,9 @@ a:hover {
 
 .footer-container {
     position: relative;
-    height: 29%;
+    height: 31%;
+    margin: 0;
+    padding: 0;
     width: 100%;
     overflow: hidden;
 }
