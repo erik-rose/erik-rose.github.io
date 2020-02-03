@@ -164,9 +164,10 @@ a:hover {
 }
 
 .services-logo-container {
-    padding-top: 15%;
+    padding-top: 5%;
     padding-bottom: 15%;
     float: left;
+    position: absolute;
     padding-left: 8%;
     scale: 0.4;
 }
@@ -199,14 +200,10 @@ a:hover {
 
 .services-description {
     background-color: white;
-    padding: 3% 2%;
     width: 30vw;
     height: 37vh;
     position: absolute;
-    top: 60%;
-    left: 60%;
-    margin: -15vw 0 0 -15vh; 
-    float: right;
+    margin: 15vw 0 0 115vh; 
     border-style: solid;
     border-width: 5px;
     font-family: sans-serif;
