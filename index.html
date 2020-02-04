@@ -7,14 +7,26 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <title>Front Page Mockup v3</title>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="jquery.maphilight.js"></script>
+    <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="jquery.maphilight.js"></script> -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="jquery.imagemapster.js"></script>
-    <script>$(function() {
+    <script type="text/javascript" src="jquery.scripts.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var img = $('#logo');
+            });
+        
+            img.mapster({
+                mapKey: 'data-name',
+            });
+        
+        </script>
+    <!-- <script>$(function() {
         $('.map').maphilight({
             fillColor: '008800'
         });
-    });</script>
+    });</script> -->
 </head>
 
 <body>
@@ -87,17 +99,23 @@
 
     <div class="bg3" id="page3">
         <div class="services-logo-container">
-            <img src="img/full_icon_with_logos.png" usemap="#logomap" class="map"/>
+            <img src="img/full_icon_with_logos.png" usemap="#logomap" id="logomap" class="map"/>
             <map name="logomap">
-                <area shape="poly" coords="0,0,170,0,170,205,0,265" href="index.html" > 
-                <area shape="poly" coords="0,282,170,222,170,500,0,500" href="index.html" >
-                <area shape="rect" coords="300,0,500,145" href="index.html" >
-                <area shape="poly" coords="198,155,500,155,500,320" href="index.html" >
-                <area shape="poly" coords="182,160,182,316,465,316" href="index.html" >
-                <area shape="rect" coords="300,332,480,500" href="index.html" >
+                <area shape="poly" data-name="reviews,all" coords="0,0,170,0,170,205,0,265" href="#" > 
+                <area shape="poly" data-name="jobs,all" coords="0,282,170,222,170,500,0,500" href="#" >
+                <area shape="rect" data-name="books,all" coords="300,0,500,145" href="#" >
+                <area shape="poly" data-name="journals,all" coords="198,155,500,155,500,320" href="#" >
+                <area shape="poly" data-name="networks,all" coords="182,160,182,316,465,316" href="#" >
+                <area shape="rect" data-name="announcements,all" coords="300,332,480,500" href="#" >
             </map>
         </div>
-        <div class="services-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, nisi harum molestiae rem nobis magnam ex. Veritatis quas voluptatem molestiae et quibusdam ab necessitatibus libero. Totam esse explicabo labore doloribus.</div>
+        <div id="logo-caption-container">
+            <div id="logo-caption">
+                <div id="logo-caption-header"></div>
+                <div id="logo-caption-text"></div>
+            </div>
+        </div>
+        <!-- <div class="services-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, nisi harum molestiae rem nobis magnam ex. Veritatis quas voluptatem molestiae et quibusdam ab necessitatibus libero. Totam esse explicabo labore doloribus.</div> -->
     </div>
     <div class="footer-container">
         <img src="img/history_logo.png" class="foot-logo">

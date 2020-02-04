@@ -185,6 +185,35 @@ a:hover {
     font-size: 20px;
 }
 
+#logo-caption-container {
+    background-color: white;
+    width: 30vw;
+    height: 37vh;
+    position: absolute;
+    margin: 12vw 0 0 115vh; 
+    padding: 3%;
+    border-style: solid;
+    overflow: hidden;
+    border-width: 5px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#logo-caption {
+    clear: both;
+    border: 1px solid black; 
+    width: 100vw;
+    height: 300vh; 
+    padding: 6px; 
+    display: none;
+}
+
+#logo-caption-header {
+    font-style: italic; 
+    font-weight: bold; 
+    margin-bottom: 12px;
+}
+
 .footer-container {
     height: 200px;
     margin: 0;
