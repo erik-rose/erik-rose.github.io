@@ -171,36 +171,6 @@ a:hover {
     padding-left: 8%;
 }
 
-.area {
-    background: black;
-    display: block;
-    height: 47%;
-    opacity: 0;
-    position: absolute;
-    width: 8%;
-}
-
-#area1 {
-    height: 100px;
-}
-
-#area2 {
-    left: 400px;
-}
-
-#area3 {
-    bottom: 100px;
-    height: 100px;
-}
-
-#area1:hover, #area2:hover {
-    opacity: 0.2;
-}
-
-.shapes:hover + .services-description {
-    font-size: 30px;
-}
-
 .services-description {
     background-color: white;
     width: 30vw;
