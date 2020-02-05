@@ -171,7 +171,7 @@ a:hover {
     padding-left: 8%;
 }
 
-.services-description {
+#logo-caption-container {
     background-color: white;
     width: 30vw;
     height: 37vh;
@@ -183,6 +183,17 @@ a:hover {
     border-width: 5px;
     font-family: sans-serif;
     font-size: 20px;
+}
+
+#logo-caption {
+    clear: both;
+    display: none;
+}
+
+#logo-caption-header {
+    font-style: italic; 
+    font-weight: bold; 
+    margin-bottom: 12px;
 }
 
 .footer-container {
