@@ -13,15 +13,39 @@
     <script type="text/javascript" src="jquery.imagemapster.js"></script>
     <script type="text/javascript" src="jquery.scripts.js"></script>
     <script type="text/javascript">
+    $(document).ready(function()
+{
+    $('#logomap').mapster({
+        fillOpacity: 0.5,
+        mapKey: 'data-name',
+        isSelectable: false,
+        render_highlight:
+        {
+            fillColor: 'FFFFFF'
+        },
+        onMouseover: function (data) {
+            inArea = true;
+            $('#logo-caption-header').text(captions[data.key][0]);
+            $('#logo-caption-text').text(captions[data.key][1]);
+            $('#logo-caption').show();
+        },
+        onMouseout: function (data) {
+            inArea = false;
+            $('#logo-caption').hide();
+        }
+    });
+});
+    </script>
+   <!-- <script type="text/javascript">
         $(document).ready(function() {
-            var img = $('#logo');
+            var img = $('#logomap');
             });
         
             img.mapster({
                 mapKey: 'data-name',
             });
-        
-        </script>
+
+        </script> -->
     <!-- <script>$(function() {
         $('.map').maphilight({
             fillColor: '008800'
@@ -104,9 +128,9 @@
                 <area shape="poly" data-name="reviews,all" coords="0,0,170,0,170,205,0,265" href="#" > 
                 <area shape="poly" data-name="jobs,all" coords="0,282,170,222,170,500,0,500" href="#" >
                 <area shape="rect" data-name="books,all" coords="300,0,500,145" href="#" >
-                <area shape="poly" data-name="journals,all" coords="198,155,500,155,500,320" href="#" >
-                <area shape="poly" data-name="networks,all" coords="182,160,182,316,465,316" href="#" >
-                <area shape="rect" data-name="announcements,all" coords="300,332,480,500" href="#" >
+                <area shape="poly" data-name="journals,all" coords="198,155,500,155,500,325" href="#" >
+                <area shape="poly" data-name="networks,all" coords="182,160,182,318,470,318" href="#" >
+                <area shape="rect" data-name="announcements,all" coords="300,330,480,500" href="#" >
             </map>
         </div>
         <div id="logo-caption-container">
