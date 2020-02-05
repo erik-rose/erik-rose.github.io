@@ -178,7 +178,6 @@ a:hover {
     position: absolute;
     margin: 12vw 0 0 115vh; 
     padding: 3%;
-    border-style: solid;
     overflow: hidden;
     border-width: 5px;
     font-family: sans-serif;
@@ -187,13 +186,17 @@ a:hover {
 
 #logo-caption {
     clear: both;
-    display: none;
+    display: none;   
 }
 
 #logo-caption-header {
     font-style: italic; 
     font-weight: bold; 
     margin-bottom: 12px;
+}
+
+#logo-caption-text {
+    top: 100px;
 }
 
 .footer-container {
