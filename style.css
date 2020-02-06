@@ -240,3 +240,246 @@
         object-fit: cover;
     }
 }
+
+@media only screen and (max-width: 1000px){
+    
+    /*Fixes white space in margin*/
+    html, body {
+        min-height: 100%;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    
+    /*Page One*/
+    .bg1 {
+        background-image: url('img/front_page_image5.jpg');
+        background-size: cover;
+        min-height: 120vh;
+        height: 100%;
+        position: relative;
+    }
+    
+    #title {
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        font-family: sans-serif;
+        padding-top: 20%;
+        font-size: 65px;
+    }
+    
+    #logo-container {
+        float: left;
+        top: 0;
+        left: 0;
+    }
+    
+    #h-net-logo {
+        padding-left: 9%;
+        padding-top: 8%;
+        width: 35%;
+        height: 45%;
+    }
+    
+    .menu-links {
+        padding-top: 5%;
+        padding-right: 5%;
+        font-family: sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        display: block;
+        text-align: right;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    a:hover {
+        color: white;
+    }
+    
+    .dropdown {
+        display: inline-block;
+        position: relative;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 100px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        padding: 1.2% 1.6%;
+        z-index: 1;
+    }
+    
+    .dropdown-content span {
+        color: black;
+        padding: 10px 14px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        font-size: 16px;
+    }
+    
+    .dropdown-content span:hover {
+        color: white;
+        background-color: rgb(161, 161, 161);
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    #page-one-text-container {
+        background-color: white;
+        opacity: 70%;
+        padding: 1% 2.5%;
+        margin: 3% 5%;
+        border-radius: 10px;
+    }
+    
+    #page-one-text {
+        opacity: 100%;
+        font-size: 18px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    
+    /*Page Two*/
+    .bg2 {
+        background-color: #b5b5b6;
+        background-size: cover;
+        min-height: 110vh;
+        position: relative;
+    }
+    
+    #p2-header {
+        text-align: center;
+        font-size: 50px;
+        padding-top: 4%;
+        font-family: sans-serif;
+        font-weight: bolder;
+    }
+   
+    #p2-subtitle {
+        text-align: center;
+        font-family: sans-serif;
+    }
+    
+    #discussions-container {
+        text-align: center;
+        margin-left: 10%;
+        margin-top: 10%;
+        width: 20%;
+        float: left;
+    }
+    
+    #wide-variety-container {
+        text-align: center;
+        margin-left: 10%;
+        margin-top: 10%;
+        width: 20%;
+        float: left;
+    }
+   
+    #alert-container {
+        text-align: center;
+        margin-left: 10%;
+        margin-top: 9.5%;
+        width: 22%;
+        float: left;
+    }
+    
+    .subheading {
+        font-weight: bolder;
+        font-family: sans-serif;
+        padding-top: 2%;
+    }
+    
+    /*Page 3*/
+    .bg3 {
+        background-color: #ffffff;
+        background-size: cover;
+        min-height: 110vh;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .services-logo-container {
+        padding-top: 5%;
+        padding-bottom: 15%;
+        float: left;
+        position: absolute;
+        padding-left: 8%;
+    }
+    
+    #logo-caption-container {
+        background-color: white;
+        width: 30vw;
+        height: 37vh;
+        position: absolute;
+        margin: 3vw 0 0 115vh;
+        padding: 3%;
+        border-width: 5px;
+        font-family: sans-serif;
+        font-size: 22px;
+    }
+    
+    #logo-caption {
+        clear: both;
+        display: none;
+    }
+    
+    #logo-caption-header {
+        font-style: italic;
+        font-weight: bold;
+        font-size: 50px;
+        margin-bottom: 120px;
+        width: 100%;
+        display: inline-block;
+    }
+    
+    #logo-caption-text {
+        top: 100px;
+        width: 100%;
+        line-height: 1.3;
+        display: inline-block;
+    }
+    
+    .footer-container {
+        height: 200px;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .footer {
+        color: #ddd;
+        background-color: #282E34;
+        padding: 2.5% 4%;
+    }
+    
+    div.footer {
+        font-family: sans-serif;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    p.first-line {
+        font-size: 20px;
+    }
+
+    .foot-logo {
+        float: right;
+        width: 15%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
