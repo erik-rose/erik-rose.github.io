@@ -22,9 +22,10 @@
     #title {
         color: white;
         font-weight: bold;
-        text-align: center;
+        text-align: left;
         font-family: sans-serif;
         padding-top: 20%;
+        padding-left: 55%;
         font-size: 65px;
     }
     
@@ -35,9 +36,9 @@
     }
     
     #h-net-logo {
-        padding-left: 9%;
+        padding-left: 45%;
         padding-top: 8%;
-        width: 35%;
+        width: 95%;
         height: 45%;
     }
     
@@ -97,27 +98,13 @@
         display: block;
     }
     
-    #page-one-text-container {
-        background-color: white;
-        opacity: 70%;
-        padding: 1% 2.5%;
-        margin: 3% 5%;
-        border-radius: 10px;
-    }
-    
-    #page-one-text {
-        opacity: 100%;
-        font-size: 18px;
-        font-family: sans-serif;
-        font-weight: bold;
-    }
-    
     /*Page Two*/
     .bg2 {
         background-color: #b5b5b6;
         background-size: cover;
         min-height: 110vh;
         position: relative;
+        overflow: hidden;
     }
     
     #p2-header {
@@ -133,7 +120,7 @@
         font-family: sans-serif;
     }
     
-    #discussions-container {
+    #mission-container {
         text-align: center;
         margin-left: 10%;
         margin-top: 10%;
@@ -141,7 +128,7 @@
         float: left;
     }
     
-    #wide-variety-container {
+    #vision-container {
         text-align: center;
         margin-left: 10%;
         margin-top: 10%;
@@ -149,12 +136,16 @@
         float: left;
     }
    
-    #alert-container {
+    #values-container {
         text-align: center;
         margin-left: 10%;
         margin-top: 9.5%;
         width: 22%;
         float: left;
+    }
+
+    .pg2-bold {
+        font-weight: bold;
     }
     
     .subheading {
@@ -185,7 +176,7 @@
         width: 30vw;
         height: 37vh;
         position: absolute;
-        margin: 3vw 0 0 115vh;
+        margin: 2vw 0 0 90vh;
         padding: 3%;
         border-width: 5px;
         font-family: sans-serif;
@@ -352,27 +343,13 @@
         display: block;
     }
     
-    #page-one-text-container {
-        background-color: white;
-        opacity: 70%;
-        padding: 1% 2.5%;
-        margin: 3% 5%;
-        border-radius: 10px;
-    }
-    
-    #page-one-text {
-        opacity: 100%;
-        font-size: 18px;
-        font-family: sans-serif;
-        font-weight: bold;
-    }
-    
     /*Page Two*/
     .bg2 {
         background-color: #b5b5b6;
         background-size: cover;
         min-height: 110vh;
         position: relative;
+        overflow: hidden;
     }
     
     #p2-header {
@@ -388,7 +365,7 @@
         font-family: sans-serif;
     }
     
-    #discussions-container {
+    #mission-container {
         text-align: center;
         margin-left: 10%;
         margin-top: 10%;
@@ -396,7 +373,7 @@
         float: left;
     }
     
-    #wide-variety-container {
+    #vision-container {
         text-align: center;
         margin-left: 10%;
         margin-top: 10%;
@@ -404,7 +381,7 @@
         float: left;
     }
    
-    #alert-container {
+    #values-container {
         text-align: center;
         margin-left: 10%;
         margin-top: 9.5%;
