@@ -107,19 +107,6 @@
         overflow: hidden;
     }
     
-    #p2-header {
-        text-align: center;
-        font-size: 50px;
-        padding-top: 4%;
-        font-family: sans-serif;
-        font-weight: bolder;
-    }
-   
-    #p2-subtitle {
-        text-align: center;
-        font-family: sans-serif;
-    }
-    
     #mission-container {
         text-align: center;
         margin-left: 10%;
@@ -144,8 +131,9 @@
         float: left;
     }
 
-    .pg2-bold {
+    li {
         font-weight: bold;
+        text-align: left;
     }
     
     .subheading {
@@ -158,7 +146,7 @@
     .bg3 {
         background-color: #ffffff;
         background-size: cover;
-        min-height: 110vh;
+        min-height: 90vh;
         position: relative;
         overflow: hidden;
     }
@@ -352,18 +340,6 @@
         overflow: hidden;
     }
     
-    #p2-header {
-        text-align: center;
-        font-size: 50px;
-        padding-top: 4%;
-        font-family: sans-serif;
-        font-weight: bolder;
-    }
-   
-    #p2-subtitle {
-        text-align: center;
-        font-family: sans-serif;
-    }
     
     #mission-container {
         text-align: center;
@@ -387,6 +363,11 @@
         margin-top: 9.5%;
         width: 22%;
         float: left;
+    }
+    
+    li {
+        font-weight: bold;
+        text-align: left;
     }
     
     .subheading {
