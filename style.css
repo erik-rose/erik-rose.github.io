@@ -100,7 +100,7 @@
     
     /*Page Two*/
     .bg2 {
-        background-color: #b5b5b6;
+        background-color: #d3d3d3;
         background-size: cover;
         min-height: 110vh;
         position: relative;
@@ -161,10 +161,10 @@
     
     #logo-caption-container {
         background-color: white;
-        width: 30vw;
+        width: 40vw;
         height: 37vh;
         position: absolute;
-        margin: 2vw 0 0 90vh;
+        margin: 2vw 0 0 100vh;
         padding: 3%;
         border-width: 5px;
         font-family: sans-serif;
