@@ -107,6 +107,14 @@
         overflow: hidden;
     }
 
+    .bg2-title {
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        font-family: sans-serif;
+        padding-top: 2%;
+    }
+
     .statements-container {
         font-family: sans-serif;
     }
@@ -114,14 +122,14 @@
     #mission-container, #vision-container {
         background-color: rgba(255, 255, 255, .5);
         border-radius: 3%;
-        padding: 1.5% 1%;
+        padding: 1% 1.25%;
         height: 100%;
     }
 
     #values-container {
         background-color: rgba(255, 255, 255, .5);
         border-radius: 3%;
-        padding: 1.5% 0.5%;
+        padding: 1% 0.5%;
         height: 100%; 
     }
     
