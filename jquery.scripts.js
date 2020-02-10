@@ -8,6 +8,15 @@ function myFunction() {
     }
   }
 
+  function myFunction2() {
+    var x = document.getElementById("sublinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+
 var inArea,
     map = $('#logomap'),
     captions = {
