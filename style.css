@@ -36,7 +36,7 @@
     }
     
     #h-net-logo {
-        padding-left: 40%;
+        padding-left: 20%; /*Might add media rule here*/
         padding-top: 8%;
         width: 95%;
         height: 45%;
