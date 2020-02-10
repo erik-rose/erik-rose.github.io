@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>Front Page Mockup v3</title>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="jquery.imagemapster.js"></script>
     <script type="text/javascript" src="jquery.scripts.js"></script>
     <script type="text/javascript">
-    $(document).ready(function () {
+        $(document).ready(function () {
             $('#logomap').mapster({
                 fillOpacity: 0.5,
                 mapKey: 'data-name',
@@ -39,6 +42,22 @@
 </head>
 
 <body>
+    <!-- Top Hamburger Navigation Menu -->
+    <div class="topnav">
+        <a href="#home" class="active"><img src="img/logo_final.png">H-Net</a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a href="#">about</a>
+            <a href="https://networks.h-net.org/support-h-net">donate</a>
+            <a href="https://networks.h-net.org/user/register">join</a>
+            <a href="#">services</a>
+            <a href="https://networks.h-net.org/">commons</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
     <div class="bg1">
         <div id="logo-container">
             <img src="img/hnet_trans_logo.png" id="h-net-logo">
@@ -71,16 +90,16 @@
         </div>
 
         <div class="menu-links-mobile">
-            <div class="dropdown"><a class="dropdown-">about</a> 
+            <div class="dropdown"><a class="dropdown-">about</a>
                 <div class="dropdown-content">
-                   <a href="#"><span>Mission</span></a>
-                   <a href="#"><span>Values</span></a>
-                   <a href="#"><span>Leadership</span></a>
-                   <a href="#"><span>Home&nbsp;Office</span></a>
-                   <a href="#"><span>By-Laws</span></a> 
+                    <a href="#"><span>Mission</span></a>
+                    <a href="#"><span>Values</span></a>
+                    <a href="#"><span>Leadership</span></a>
+                    <a href="#"><span>Home&nbsp;Office</span></a>
+                    <a href="#"><span>By-Laws</span></a>
                 </div>
             </div>
-            <a href="https://networks.h-net.org/support-h-net">donate</a><br> 
+            <a href="https://networks.h-net.org/support-h-net">donate</a><br>
             <a href="https://networks.h-net.org/user/register">join</a><br>
             <div class="dropdown"><a class="dropdown">services</a>
                 <div class="dropdown-content">
@@ -90,7 +109,7 @@
                     <a href="https://networks.h-net.org/journals"><span>Journals</span></a>
                     <a href="https://networks.h-net.org/reviews"><span>Reviews</span></a>
                 </div>
-            </div> 
+            </div>
             <a href="https://networks.h-net.org/">commons</a></a>
         </div>
 
@@ -104,38 +123,52 @@
             <div id="vision-container">
                 <img src="img/people.png"><br>
                 <div class="subheading">Vision</div><br>
-                <p>Our vision is of the humanities and social sciences transformed by the immense potential of digital technologies and oriented around moderated intellectual exchange, collaborative production, and the open dissemination of knowledge.</p>
+                <p>Our vision is of the humanities and social sciences transformed by the immense potential of digital
+                    technologies and oriented around moderated intellectual exchange, collaborative production, and the
+                    open dissemination of knowledge.</p>
             </div>
             <div id="mission-container">
                 <img src="img/discussion_bubble.png"><br>
                 <div class="subheading">Mission</div><br>
-                <p>H-Net: Humanities and Social Sciences Online (H-Net) is an independent, non-profit scholarly association that offers an open academic space for scholars, teachers, advanced students and related professionals. H-Net’s digital platform, The Commons, provides a dynamic array of functions that allow academics to engage with each other, collaboratively produce knowledge, and disseminate information to its subscribers and the general public. Built around an online system of networks moderated by certified editors, H-Net is uniquely situated to encourage technological innovation in the humanities and social sciences while safeguarding academic best practices.</p>
+                <p>H-Net: Humanities and Social Sciences Online (H-Net) is an independent, non-profit scholarly
+                    association that offers an open academic space for scholars, teachers, advanced students and related
+                    professionals. H-Net’s digital platform, The Commons, provides a dynamic array of functions that
+                    allow academics to engage with each other, collaboratively produce knowledge, and disseminate
+                    information to its subscribers and the general public. Built around an online system of networks
+                    moderated by certified editors, H-Net is uniquely situated to encourage technological innovation in
+                    the humanities and social sciences while safeguarding academic best practices.</p>
             </div>
             <div id="values-container">
                 <img src="img/bullhorn.png"><br>
                 <div class="subheading">Values</div><br>
                 <p>H-Net's work is guided and informed by our commitment to:</p>
                 <ul>
-                <li>high standards of scholarly, pedagogical and professional behavior</li>
+                    <li>high standards of scholarly, pedagogical and professional behavior</li>
 
-                <li>a pluralistic and democratic way of decision-making</li>
-               
-                <li>principles of Open Access</li>
-            </ul>
+                    <li>a pluralistic and democratic way of decision-making</li>
+
+                    <li>principles of Open Access</li>
+                </ul>
             </div>
         </div>
     </div>
 
     <div class="bg3" id="page3">
         <div class="services-logo-container">
-            <img src="img/logo_final.png" usemap="#logomap" id="logomap" class="map"/>
+            <img src="img/logo_final.png" usemap="#logomap" id="logomap" class="map" />
             <map name="logomap">
-                <area shape="poly" data-name="reviews,all" coords="0,0,170,0,170,210,0,265" href="https://networks.h-net.org/reviews"> 
-                <area shape="poly" data-name="jobs,all" coords="0,282,170,222,170,500,0,500" href="https://www.h-net.org/jobs/home.php">
-                <area shape="rect" data-name="books,all" coords="295,0,500,145" href="https://networks.h-net.org/h-net-book-channel">
-                <area shape="poly" data-name="journals,all" coords="198,155,500,155,500,325" href="https://networks.h-net.org/journals">
-                <area shape="poly" data-name="networks,all" coords="182,160,182,318,470,318" href="https://networks.h-net.org/networks">
-                <area shape="rect" data-name="announcements,all" coords="300,330,480,500" href="https://networks.h-net.org/h-announce">
+                <area shape="poly" data-name="reviews,all" coords="0,0,170,0,170,210,0,265"
+                    href="https://networks.h-net.org/reviews">
+                <area shape="poly" data-name="jobs,all" coords="0,282,170,222,170,500,0,500"
+                    href="https://www.h-net.org/jobs/home.php">
+                <area shape="rect" data-name="books,all" coords="295,0,500,145"
+                    href="https://networks.h-net.org/h-net-book-channel">
+                <area shape="poly" data-name="journals,all" coords="198,155,500,155,500,325"
+                    href="https://networks.h-net.org/journals">
+                <area shape="poly" data-name="networks,all" coords="182,160,182,318,470,318"
+                    href="https://networks.h-net.org/networks">
+                <area shape="rect" data-name="announcements,all" coords="300,330,480,500"
+                    href="https://networks.h-net.org/h-announce">
             </map>
         </div>
         <div id="logo-caption-container">
@@ -153,12 +186,13 @@
     </div>
     <div class="footer-container">
         <img src="img/history_logo.png" class="foot-logo">
-        <div class ="footer">
-        <p class="first-line">H-Net: Humanities & Social Sciences Online<br>Copyright © 1993 - 2020</p>
-        <p>This work is licensed under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License</p>
-        <p>Michigan State University Department of History</p>
+        <div class="footer">
+            <p class="first-line">H-Net: Humanities & Social Sciences Online<br>Copyright © 1993 - 2020</p>
+            <p>This work is licensed under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United
+                States License</p>
+            <p>Michigan State University Department of History</p>
         </div>
-      </div>
-    </body>
+    </div>
+</body>
 
 </html>
