@@ -49,6 +49,11 @@
         position: relative;
     }
     
+    .dot {
+        background: url('img/header-dot.png');
+        background-repeat: repeat;
+    }
+
     #title {
         color: white;
         font-weight: bold;
