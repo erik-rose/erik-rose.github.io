@@ -15,16 +15,43 @@
     <script type="text/javascript" src="jquery.scripts.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
-            $('#logomap').mapster({
-                fillOpacity: 0.5,
+            var targetWidth = 1000;
+                if ($(window).width() >= targetWidth) {
+                $('#logomap').mapster({
+                    fillOpacity: 0.5,
+                    mapKey: 'data-name',
+                    isSelectable: false,
+                    clickNavigate: true,
+                    render_highlight:
+                    {
+                        fillColor: 'FFFFFF'
+                    },
+                    onMouseover: function (data) {
+                        inArea = true;
+                        $('#logo-caption-default').hide();
+                        $('#logo-caption-header').text(captions[data.key][0]);
+                        $('#logo-caption-text').text(captions[data.key][1]);
+                        $('#logo-caption').show();
+                    },
+                    onMouseout: function (data) {
+                        inArea = false;
+                        $('#logo-caption').hide();
+                        $('#logo-caption-default').show();
+                    }
+
+                });}
+
+                else {
+                $('#logomap').mapster({
+                fillOpacity: 0,
                 mapKey: 'data-name',
                 isSelectable: false,
-                clickNavigate: true,
+                clickNavigate: false,
                 render_highlight:
                 {
                     fillColor: 'FFFFFF'
                 },
-                onMouseover: function (data) {
+                onClick: function (data) {
                     inArea = true;
                     $('#logo-caption-default').hide();
                     $('#logo-caption-header').text(captions[data.key][0]);
@@ -35,9 +62,11 @@
                     inArea = false;
                     $('#logo-caption').hide();
                     $('#logo-caption-default').show();
-                }
-            });
-        });
+                },
+                }   
+                
+                )};   }
+        );
     </script>
 </head>
 
