@@ -367,11 +367,20 @@
     }
 
     .bg1 {
-        background-image: url('img/front_page_image5.jpg');
+        background-color: rgba(238, 238, 238, 0.377) !important;
+        background-image: url('img/front_page_image_2.jpg');
+        background-blend-mode: color;
         background-size: cover;
         min-height: 90vh;
         height: 100%;
         position: relative;
+    }
+    
+    .dot {
+        background: url('img/header-dot.png');
+        background-repeat: repeat;
+        min-height: 90vh;
+        height: 100%;
     }
     
     #title {
@@ -467,7 +476,7 @@
         flex-direction: column;
     }
 
-    .statements-images {
+    .statements-images1, .statements-images2, .statements-images3 {
         display: none;
     }
     
