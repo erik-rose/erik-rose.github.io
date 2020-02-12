@@ -14,32 +14,6 @@
     .topnav {
         display: none;
     }
-              
-    /* Hide the links inside the navigation menu (except for logo/home) */
-    .topnav #myLinks {
-        display: none;
-    }
-              
-    /* Style navigation menu links */
-    .topnav a {
-        display: none;
-    }
-              
-    /* Style the hamburger menu */
-    .topnav a.icon {
-        display: none;
-    }
-              
-    /* Add a grey background color on mouse-over */
-    .topnav a:hover {
-        display: none;
-    }
-              
-    /* Style the active link (or home/logo) */
-    .active {
-        background-color: #4CAF50;
-        color: white;
-    }
 
     .bg1 {
         background-image: url('img/front_page_image_2.jpg');
@@ -89,11 +63,11 @@
     
     a {
         text-decoration: none;
-        color: black;
+        color: white;
     }
     
     a:hover {
-        color: white;
+        color: rgb(87, 87, 87);
     }
     
     .dropdown {
