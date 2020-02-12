@@ -212,6 +212,10 @@
         position: absolute;
         padding-left: 8%;
     }
+
+    #logo-mobile-caption-text-default {
+        display: none;
+    }
     
     #logo-caption-container {
         background-color: white;
@@ -526,7 +530,16 @@
         position: relative;
         overflow: hidden;
     }
+
+    #logo-mobile-caption-text-default {
+        clear: both;
+        display: block;       
+    }
     
+    #logo-caption-text-default {
+        display: none;
+    }
+
     .services-logo-container {
         padding-top: 5%;
         padding-bottom: 15%;
@@ -542,11 +555,11 @@
     #logo-caption-container {
         background-color: white;
         position: absolute;
-        margin: 55vh 0 0 0vh;
+        margin: 55vh 5vh 0 5vh;
         padding: 3%;
         border-width: 5px;
         font-family: sans-serif;
-        font-size: 22px;
+        font-size: 19px;
         text-align: center;
     }
     
@@ -558,7 +571,7 @@
     #logo-caption-header {
         font-style: italic;
         font-weight: bold;
-        font-size: 50px;
+        font-size: 35px;
         margin-bottom: 0px;
         width: 100%;
         display: inline-block;
