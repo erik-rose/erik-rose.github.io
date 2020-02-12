@@ -453,6 +453,12 @@
         overflow: hidden;
     }
 
+    .bg2-title-container {
+        margin-left: 10%;
+        width: 80%;
+        padding: 0 1.25%;
+    }
+
     .bg2-title {
         font-size: 40px;
         font-weight: bold;
