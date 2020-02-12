@@ -193,7 +193,7 @@
     
     /*Page 3*/
     .bg3 {
-        background-color: #ffffff;
+        background-color: #faf8e8bd;
         background-size: cover;
         min-height: 95vh;
         position: relative;
@@ -213,7 +213,7 @@
     }
     
     #logo-caption-container {
-        background-color: white;
+        background-color: #faf8e8bd;
         width: 40vw;
         height: 37vh;
         position: absolute;
@@ -533,7 +533,7 @@
     
     /*Page 3*/
     .bg3 {
-        background-color: #ffffff;
+        background-color: #faf8e8bd;
         background-size: cover;
         min-height: 110vh;
         position: relative;
@@ -562,7 +562,7 @@
     }
 
     #logo-caption-container {
-        background-color: white;
+        background-color: #faf8e8bd;
         position: absolute;
         margin: 55vh 5vh 0 5vh;
         padding: 3%;
