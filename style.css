@@ -383,22 +383,21 @@
         color: white;
         font-weight: bold;
         text-align: left;
+        margin-left: 3%;
         font-family: sans-serif;
         padding-top: 15%;
         font-size: 50px;
     }
     
     #logo-container {
-        float: left;
+        text-align: center;
         top: 0;
-        left: 0;
-        width: 50%;
+        width: 100%;
     }
     
     #h-net-logo {
-        padding-left: 20%; /*Might add media rule here*/
         padding-top: 8%;
-        width: 95%;
+        width: 50%;
         height: 45%;
     }
 
