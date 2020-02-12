@@ -16,7 +16,7 @@
     }
 
     .bg1 {
-        background-color: rgba(238, 238, 238, 0.178) !important;
+        background-color: rgba(238, 238, 238, 0.158) !important;
         background-image: url('img/front_page_image_2.jpg');
         background-blend-mode: color;
         background-size: cover;
