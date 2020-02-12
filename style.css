@@ -582,7 +582,8 @@
     .footer {
         color: #ddd;
         background-color: #282E34;
-        padding: 0.3% 4%;
+        height: 100%;
+        padding: 0.3% 3%;
     }
     
     div.footer {
@@ -597,7 +598,7 @@
 
     .foot-logo {
         float: right;
-        width: 15%;
+        width: 18%;
         height: 100%;
         object-fit: cover;
     }
