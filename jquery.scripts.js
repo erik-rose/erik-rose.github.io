@@ -8,14 +8,23 @@ function myFunction() {
     }
   }
 
-  function myFunction2() {
+function myFunction2() {
     var x = document.getElementById("sublinks");
     if (x.style.display === "block") {
-      x.style.display = "none";
+        x.style.display = "none";
     } else {
-      x.style.display = "block";
+        x.style.display = "block";
     }
-  }
+}
+
+function myFunction3() {
+    var x = document.getElementById("about-links");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
 
 var inArea,
     map = $('#logomap'),

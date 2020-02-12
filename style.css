@@ -1,36 +1,4 @@
 @media screen and (min-width: 1000px) {
-    /* Style the navigation menu */
-    .topnav {
-display: none;
-      }
-      
-      /* Hide the links inside the navigation menu (except for logo/home) */
-      .topnav #myLinks {
-        display: none;
-      }
-      
-      /* Style navigation menu links */
-      .topnav a {
-        display: none;
-      }
-      
-      /* Style the hamburger menu */
-      .topnav a.icon {
-        display: none;
-      }
-      
-      /* Add a grey background color on mouse-over */
-      .topnav a:hover {
-      display: none;
-      }
-      
-      /* Style the active link (or home/logo) */
-      .active {
-        background-color: #4CAF50;
-        color: white;
-      }
-        
-
     /*Fixes white space in margin*/
     html, body {
         min-height: 100%;
@@ -42,6 +10,37 @@ display: none;
     }
     
     /*Page One*/
+    /* Style the navigation menu */
+    .topnav {
+        display: none;
+    }
+              
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .topnav #myLinks {
+        display: none;
+    }
+              
+    /* Style navigation menu links */
+    .topnav a {
+        display: none;
+    }
+              
+    /* Style the hamburger menu */
+    .topnav a.icon {
+        display: none;
+    }
+              
+    /* Add a grey background color on mouse-over */
+    .topnav a:hover {
+        display: none;
+    }
+              
+    /* Style the active link (or home/logo) */
+    .active {
+        background-color: #4CAF50;
+        color: white;
+    }
+
     .bg1 {
         background-image: url('img/front_page_image5.jpg');
         background-size: cover;
@@ -299,66 +298,7 @@ display: none;
 }
 
 @media only screen and (max-width: 1000px){
-    /* Style the navigation menu */
-    .topnav {
-        overflow: hidden;
-        background-color: #333;
-        position: relative;
-      }
-      
-      /* Hide the links inside the navigation menu (except for logo/home) */
-      .topnav #myLinks {
-        display: none;
-      }
-      
-      /* Style navigation menu links */
-      .topnav a {
-        color: white;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
-      }
-
-      .topnav span {
-          font-size: 10px;
-      }
-      
-      /* Style the hamburger menu */
-      .topnav a.icon {
-        background: #222222;
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-      }
-      
-      /* Add a grey background color on mouse-over */
-      .topnav a:hover {
-        background-color: #ddd;
-        color: black;
-      }
-      
-      /* Style the active link (or home/logo) */
-      .active {
-        background-color: #222222;
-        color: white;
-        font-family: sans-serif;
-      }
-
-      #sublinks {
-          display:none;
-          background-color: #5a5a5a;
-      }
-
-      .active img {
-          height: 14px;
-          padding-right: 10px;
-      }
-        
-
-    
-    /*Fixes white space in margin*/
+     /*Fixes white space in margin*/
     html, body {
         min-height: 100%;
         width: 100%;
@@ -369,6 +309,68 @@ display: none;
     }
     
     /*Page One*/
+    /* Style the navigation menu */
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+    }
+      
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .topnav #myLinks {
+        display: none;
+    }
+      
+    /* Style navigation menu links */
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    .topnav span {
+          font-size: 10px;
+    }
+      
+    /* Style the hamburger menu */
+    .topnav a.icon {
+        background: #222222;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+      
+    /* Add a grey background color on mouse-over */
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+      
+    /* Style the active link (or home/logo) */
+    .active {
+        background-color: #222222;
+        color: white;
+        font-family: sans-serif;
+    }
+
+    #sublinks {
+          display:none;
+          background-color: #5a5a5a;
+    }
+
+    #about-links {
+        display:none;
+        background-color: #5a5a5a;
+    }
+
+    .active img {
+          height: 14px;
+          padding-right: 10px;
+    }
+
     .bg1 {
         background-image: url('img/front_page_image5.jpg');
         background-size: cover;
