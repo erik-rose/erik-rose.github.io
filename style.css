@@ -553,10 +553,10 @@
         padding-left: 8%;
     }
 
-    .map {
-        width: 90%;
+    div.services-logo-container img {
+        width: 90%; 
     }
-    
+
     #logo-caption-container {
         background-color: white;
         position: absolute;
@@ -587,6 +587,7 @@
         width: 100%;
         line-height: 1.3;
         display: inline-block;
+        text-align: left;
     }
     
     .footer-container {
