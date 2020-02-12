@@ -16,7 +16,7 @@
     }
 
     .bg1 {
-        background-color: rgba(238, 238, 238, 0.377) !important;
+        background-color: rgba(238, 238, 238, 0.178) !important;
         background-image: url('img/front_page_image_2.jpg');
         background-blend-mode: color;
         background-size: cover;
@@ -71,7 +71,7 @@
     }
     
     a:hover {
-        color: rgb(87, 87, 87);
+        color: rgb(0, 0, 0);
     }
     
     .dropdown {
@@ -367,7 +367,7 @@
     }
 
     .bg1 {
-        background-color: rgba(238, 238, 238, 0.377) !important;
+        background-color: rgba(238, 238, 238, 0.308) !important;
         background-image: url('img/front_page_image_2.jpg');
         background-blend-mode: color;
         background-size: cover;
