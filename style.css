@@ -16,7 +16,7 @@
     }
 
     .bg1 {
-        background-color: rgba(238, 238, 238, 0.158) !important;
+        background-color: rgba(238, 238, 238, 0.075) !important;
         background-image: url('img/front_page_image_2.jpg');
         background-blend-mode: color;
         background-size: cover;
@@ -129,11 +129,11 @@
     }
 
     .statements-images1 {
-        width: 80%;
+        width: 65%;
     }
 
     .statements-images2 {
-        width: 40%;
+        width: 42%;
     }
 
     .statements-images3 {
@@ -359,6 +359,16 @@
     #about-links {
         display:none;
         background-color: #5a5a5a;
+    }
+
+    #join-links {
+        display:none;
+        background-color: #5a5a5a;
+    }
+
+    #commons-links {
+      display:none;
+      background-color: #5a5a5a;
     }
 
     .active img {
