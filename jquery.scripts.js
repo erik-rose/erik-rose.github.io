@@ -26,15 +26,6 @@ function myFunction3() {
     }
 }
 
-function myFunction4() {
-    var x = document.getElementById("join-links");
-    if (x.style.display === "block") {
-        x.style.display = "none";
-    } else {
-        x.style.display = "block";
-    }
-}
-
 function myFunction5() {
     var x = document.getElementById("commons-links");
     if (x.style.display === "block") {
