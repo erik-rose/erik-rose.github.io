@@ -1,0 +1,42 @@
+html, body {
+    font-family: sans-serif;
+}
+
+.title {
+   text-align: center; 
+}
+
+.subtitle {
+    font-weight: bolder;
+    margin: 1% 0;
+}
+
+a.button {
+    text-decoration: none;
+}
+
+.vertical-boxes {
+    text-align: center;
+    display: flex;
+}
+
+#vert-box1, #vert-box2, #vert-box3{
+    background-color: rgb(175, 175, 175);
+    margin: 0 10%;
+    width: 20%;
+}
+
+#hor-box1, #hor-box2 {
+    background-color: rgb(175, 175, 175);
+    margin: 2% 0;
+    text-align: center;
+    padding: 1% 1%;
+}
+
+.hor-body {
+    text-align: left;
+}
+
+.hor .button {
+    text-align: right;
+}
