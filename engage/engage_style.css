@@ -30,21 +30,41 @@ html, body {
 }
 
 .title {
-   color: white;
-   font-size: 35px;
-   font-weight: bold;
-   margin: 0 auto;
-   align-self: center;
-   z-index: 1;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0 auto;
+    align-self: center;
+    z-index: 1;
 }
 
 .subtitle {
+    text-align: center;
     font-weight: bolder;
     margin: 1% 0;
 }
 
 a.button {
     text-decoration: none;
+    background-color: #293391;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+}
+
+a.vert {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 17%;
+    margin-bottom: 5%;
+}
+
+a.hor {
+    display: inline-block;
+    text-align: right; 
 }
 
 .vertical-boxes {
@@ -56,23 +76,23 @@ a.button {
     background-color: rgb(175, 175, 175);
     margin: 0 10%;
     width: 20%;
-    padding: 1% 1%;
+    padding: 1.5% 1% 5% 1%;
     border-radius: .5em;
+    position: relative;
+}
+
+.vert-body {
+    margin-bottom: -5%;
 }
 
 #hor-box1, #hor-box2 {
     background-color: rgb(175, 175, 175);
     margin: 2% 2%;
-    text-align: center;
+    text-align: right;
     padding: 1% 1%;
     border-radius: .5em;
 }
 
 .hor-body {
     text-align: left;
-}
-
-a.hor {
-    display: block;
-    text-align: right; 
 }
