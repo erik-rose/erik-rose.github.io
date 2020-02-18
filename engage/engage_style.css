@@ -52,6 +52,7 @@ a.button {
     padding: 15px 25px;
     text-align: center;
     font-size: 16px;
+    border-radius: .3em;
 }
 
 a.vert {
@@ -95,4 +96,35 @@ a.hor {
 
 .hor-body {
     text-align: left;
+}
+
+#go-home-container {
+    width: 100%;
+    position: relative;
+}
+
+#go-home {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto 1% auto;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(175, 175, 175);
+    border: none;
+    padding: 15px 25px;
+    width: 15%;
+    border-radius: .5em;
+}
+
+#go-home:link {
+    color: rgb(74, 74, 74); 
+}
+
+#go-home:visited {
+    color: #293391;
+}
+
+#go-home:hover {
+    color: black;
 }
