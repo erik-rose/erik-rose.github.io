@@ -181,8 +181,16 @@
         float: left;
     }
 
+    .statements-body {
+        text-align: justify;
+        font-size: 18px;
+    }
+
+    .values-body {
+        font-size: 18px;
+    }
+
     li {
-        font-weight: bold;
         text-align: left;
     }
     
@@ -251,6 +259,7 @@
         width: 100%;
         line-height: 1.3;
         display: inline-block;
+        font-size: 30px;
     }
 
     #logo-caption-text-default {
