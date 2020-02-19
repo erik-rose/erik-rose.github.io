@@ -50,9 +50,10 @@
     
     #h-net-logo {
         padding-left: 20%; /*Might add media rule here*/
-        padding-top: 8%;
-        width: 95%;
-        height: 45%;
+        padding-top: 0%;
+        max-width: 95%;
+        width: auto;
+        height: auto;
     }
     
     .menu-links {
@@ -116,6 +117,7 @@
         min-height: 110vh;
         position: relative;
         overflow: hidden;
+        width: 100vw;
     }
 
     .bg2-title {
