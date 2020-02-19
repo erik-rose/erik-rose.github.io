@@ -59,9 +59,11 @@
     a.vert {
         display: inline-block;
         position: absolute;
-        bottom: 0;
-        right: 17%;
-        margin-bottom: 5%;
+        margin: 0;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 50%;
     }
 
     a.hor {
@@ -78,7 +80,7 @@
         background-color: rgb(175, 175, 175);
         margin: 0 10%;
         width: 20%;
-        padding: 1.5% 1% 5% 1%;
+        padding: 1.5% 1% 7.5% 1%;
         border-radius: .5em;
         position: relative;
     }
