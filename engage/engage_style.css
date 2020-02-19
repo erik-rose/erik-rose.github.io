@@ -89,6 +89,10 @@
         margin-bottom: -5%;
     }
 
+    .spacer {
+        margin: 15px;
+    }
+
     #hor-box1, #hor-box2 {
         background-color: rgb(175, 175, 175);
         margin: 2% 2%;
