@@ -302,9 +302,7 @@
 
     .foot-logo {
         float: right;
-        width: 15%;
         height: 100%;
-        object-fit: cover;
     }
 }
 
