@@ -499,14 +499,14 @@
     }
     
     #mission-container, #vision-container {
-        background-color: rgba(255, 255, 255, .5);
+        background-color: rgba(255, 255, 255, 0.897);
         border-radius: 1%;
         padding: 1% 1.25%;
         height: 100%;
     }
 
     #values-container {
-        background-color: rgba(255, 255, 255, .5);
+        background-color: rgba(255, 255, 255, 0.897);
         border-radius: 1%;
         padding: 1% 0.5%;
         height: 100%; 
