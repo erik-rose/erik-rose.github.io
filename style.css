@@ -503,36 +503,36 @@
     #mission-container, #vision-container {
         background-color: rgba(255, 255, 255, 0.897);
         border-radius: 1%;
-        padding: 1% 1.25%;
+        padding: 1% 5.25%;
         height: 100%;
     }
 
     #values-container {
         background-color: rgba(255, 255, 255, 0.897);
         border-radius: 1%;
-        padding: 1% 0.5%;
+        padding: 1% 5.25%;
         height: 100%; 
     }
 
     #mission-container {
-        text-align: center;
-        margin-left: 10%;
+        text-align: left;
+        margin-left: 5%;
         margin-top: 10%;
         width: 80%;
         float: left;
     }
     
     #vision-container {
-        text-align: center;
-        margin-left: 10%;
+        text-align: left;
+        margin-left: 5%;
         margin-top: 10%;
         width: 80%;
         float: left;
     }
    
     #values-container {
-        text-align: center;
-        margin-left: 10%;
+        text-align: left;
+        margin-left: 5%;
         margin-top: 10%;
         margin-bottom: 10%;
         width: 82%;
@@ -549,6 +549,7 @@
         font-family: 'Lato', sans-serif;
         font-size: 25px;
         padding-top: 2%;
+        text-align: center;
     }
     
     /*Page 3*/
