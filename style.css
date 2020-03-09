@@ -557,7 +557,7 @@
     .bg3 {
         background-color: #faf8e8bd;
         background-size: cover;
-        min-height: 110vh;
+        min-height: 120vh;
         position: relative;
         overflow: hidden;
     }
@@ -623,7 +623,7 @@
     
     .footer-container {
         height: 85px;
-        margin: 0;
+        margin: 0 0 0 0;
         padding: 0;
         width: 100%;
         overflow: hidden;
