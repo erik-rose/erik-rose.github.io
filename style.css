@@ -394,6 +394,7 @@
         min-height: 90vh;
         height: 100%;
         position: relative;
+        transform: translate3d(0,0,0);  
     }
     
     .dot {
@@ -475,6 +476,7 @@
         min-height: 110vh;
         position: relative;
         overflow: hidden;
+        transform: translate3d(0,0,0);  
     }
 
     .bg2-title-container {
@@ -560,6 +562,7 @@
         min-height: 120vh;
         position: relative;
         overflow: hidden;
+        transform: translate3d(0,0,0);  
     }
 
     #logo-mobile-caption-text-default {
