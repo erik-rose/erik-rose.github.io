@@ -86,7 +86,9 @@
     }
 
     .vert-body {
+        padding-top: 10%;
         margin-bottom: -5%;
+        text-align: center;
     }
 
     .spacer {
