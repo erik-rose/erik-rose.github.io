@@ -60,7 +60,7 @@
         padding-top: 5%;
         padding-left: 50%;
         font-family: sans-serif;
-        font-size: 30px;
+        font-size: 28px;
         font-weight: bold;
         display: block;
         text-align: left;
@@ -133,15 +133,15 @@
     }
 
     .statements-images1 {
-        width: 65%;
+        width: 52%;
     }
 
     .statements-images2 {
-        width: 42%;
+        width: 33.6%;
     }
 
     .statements-images3 {
-        width: 60%;
+        width: 48%;
     }
 
     #mission-container, #vision-container {
@@ -155,7 +155,7 @@
     #values-container {
         background-color: rgba(255, 255, 255, 0.897);
         border-radius: 3%;
-        padding: 1% 0.5%;
+        padding: 1% 1.25%;
         height: 100%; 
     }
     
@@ -179,12 +179,12 @@
         text-align: center;
         margin-left: 10%;
         margin-top: 5%;
-        width: 22%;
+        width: 21.5%;
         float: left;
     }
 
     .statements-body {
-        text-align: justify;
+        text-align: left;
         font-size: 18px;
     }
 
@@ -226,10 +226,11 @@
     
     #logo-caption-container {
         background-color: #faf8e8bd;
-        width: 40vw;
-        height: 37vh;
+        width: 40%;
+        height: 37%;
+        /*right: 10%;*/
         position: absolute;
-        margin: 2vw 0 0 100vh;
+        margin: 2% 0 0 45%;
         padding: 3% 3% 8% 3%;
         border-width: 5px;
         font-family: sans-serif;
