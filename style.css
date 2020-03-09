@@ -36,7 +36,8 @@
         font-weight: bold;
         text-align: left;
         font-family: sans-serif;
-        padding-top: 17%;
+        position: absolute;
+        top: 44%;
         padding-left: 50%;
         font-size: 65px;
     }
