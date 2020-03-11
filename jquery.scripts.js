@@ -82,20 +82,20 @@ var inArea,
     opts = $.extend({}, all_opts, initial_opts, single_opts);
 
 
-    // Bind to the image 'mouseover' and 'mouseout' events to activate or deactivate ALL the areas, like the
+    // on to the image 'mouseover' and 'mouseout' events to activate or deactivate ALL the areas, like the
     // original demo. Check whether an area has been activated with "inArea" - IE<9 fires "onmouseover" 
     // again for the image when entering an area, so all areas would stay highlighted when entering
     // a specific area in those browsers otherwise. It makes no difference for other browsers.
 
-    map.mapster('unbind')
+    map.mapster('off')
         .mapster(opts)
-        .bind('mouseover', function () {
+        .on('mouseover', function () {
             if (!inArea) {
                 map.mapster('set_options', all_opts)
                     .mapster('set', true, 'all')
                     .mapster('set_options', single_opts);
             }
-        }).bind('mouseout', function () {
+        }).on('mouseout', function () {
             if (!inArea) {
                 map.mapster('set', false, 'all');
             }
