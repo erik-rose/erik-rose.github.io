@@ -318,7 +318,8 @@
         padding: 0;
         overflow-x: hidden;
     }
-    
+
+
     /*Page One*/
     .topnav {
         overflow: hidden;
@@ -334,8 +335,12 @@
         color: white;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 5vh;
         display: block;
+    }
+
+    #myLinks a {
+        font-size: 18px;
     }
 
     .topnav span {
@@ -350,6 +355,10 @@
         top: 0;
     }
       
+    a.icon {
+        font-size: 5vh;
+    }
+
     .topnav a:hover {
         background-color: #ddd;
         color: black;
@@ -358,6 +367,8 @@
     .active {
         background-color: #222222;
         color: white;
+        min-height: 5vh;
+        font-size: 500px;
         font-family: sans-serif;
     }
 
@@ -382,7 +393,7 @@
     }
 
     .active img {
-          height: 14px;
+          height: 4vh;
           padding-right: 10px;
     }
 
