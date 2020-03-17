@@ -14,9 +14,18 @@ html, body {
     display: flex;
 }
 
+.create-an-account {
+    margin: 1em;
+    min-width: 65%;
+}
+
 .img1 {
     width: 100%;
     padding: 0;
+}
+
+.join-us {
+    margin: 1em;
 }
 
 .img2 {
@@ -27,12 +36,24 @@ html, body {
     display: flex;
 }
 
+.propose-a-network {
+    margin: 1em;
+}
+
 .img3 {
     width: 100%;
 }
 
+.network-editor {
+    margin: 1em;
+}
+
 .img4 {
     width: 100%;
+}
+
+.advisory-board  {
+    margin: 1em;
 }
 
 .img5 {
