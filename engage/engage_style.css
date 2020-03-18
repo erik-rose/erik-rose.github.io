@@ -78,3 +78,27 @@ html, body {
 .img5 {
     width: 100%;
 }
+
+.go-home-container {
+    text-align: center;
+    margin: 2em;
+}
+
+.go-home {
+    font-size: 1.3em;
+    background-color: white;
+    padding: .5em;
+    border-radius: .5em;
+}
+
+.go-home:link {
+    color: rgb(51, 51, 51); 
+}
+
+.go-home:visited {
+    color: rgb(51, 51, 51); 
+}
+
+.go-home:hover {
+    color: #00d5fb;
+}
