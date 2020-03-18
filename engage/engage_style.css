@@ -10,6 +10,14 @@ html, body {
     background-color: #b1effe;
 }
 
+.underline {
+    background-color: #00d5fb;
+    padding: 0;
+    width: 20%;
+    border: none;
+    height: 5px;
+}
+
 .row1 {
     display: flex;
 }
