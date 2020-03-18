@@ -23,21 +23,21 @@ html, body {
 }
 
 .column-header {
-    margin-block-end: 0em;
+    margin-block-end: 0;
+}
+
+.join-us {
+    margin: 1em;
 }
 
 .create-an-account {
     margin: 1em;
-    min-width: 65%;
+    min-width: 64%;
 }
 
 .img1 {
     width: 100%;
     padding: 0;
-}
-
-.join-us {
-    margin: 1em;
 }
 
 .img2 {
@@ -50,6 +50,11 @@ html, body {
 
 .propose-a-network {
     margin: 1em;
+    flex-basis: 33%;
+}
+
+.propose-a-network .caption {
+    padding-bottom: 10%;
 }
 
 .img3 {
@@ -58,6 +63,7 @@ html, body {
 
 .network-editor {
     margin: 1em;
+    flex-basis: 33%;
 }
 
 .img4 {
@@ -66,6 +72,7 @@ html, body {
 
 .advisory-board  {
     margin: 1em;
+    flex-basis: 33%;
 }
 
 .img5 {
