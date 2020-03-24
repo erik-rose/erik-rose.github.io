@@ -12,6 +12,10 @@ html, body {
     background-color: #b1effe;
 }
 
+.mobile {
+    display: none;
+}
+
 .underline {
     background-color: #00d5fb;
     padding: 0;
@@ -119,6 +123,10 @@ html, body {
     overflow-x: hidden;
     position: relative;
     background-color: #b1effe;
+}
+
+.desktop {
+    display: none;
 }
 
 .underline {
