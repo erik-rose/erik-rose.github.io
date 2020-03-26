@@ -50,11 +50,12 @@
     }
     
     #h-net-logo {
-        padding-left: 20%; /*Might add media rule here*/
-        padding-top: 8%;
+        padding-left: 10%; /*Might add media rule here*/
+        padding-top: 4%;
         max-width: 95%;
         width: auto;
         height: 75%;
+        position: absolute;
     }
     
     .menu-links {
@@ -360,11 +361,12 @@
     }
     
     #h-net-logo {
-        padding-left: 20%; /*Might add media rule here*/
-        padding-top: 8%;
+        padding-left: 10%; /*Might add media rule here*/
+        padding-top: 4%;
         max-width: 95%;
         width: auto;
         height: 75%;
+        position: absolute;
     }
     
     .menu-links {
