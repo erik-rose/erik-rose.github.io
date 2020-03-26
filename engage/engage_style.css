@@ -1,4 +1,4 @@
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
     
 html, body {
     font-family: 'Source Sans Pro', sans-serif;
@@ -111,6 +111,119 @@ html, body {
 
 }
 
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+    
+    html, body {
+        font-family: 'Source Sans Pro', sans-serif;
+        min-height: 100%;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        position: relative;
+        background-color: #b1effe;
+    }
+    
+    .mobile {
+        display: none;
+    }
+    
+    .underline {
+        background-color: #00d5fb;
+        padding: 0;
+        width: 20%;
+        border: none;
+        height: 5px;
+    }
+    
+    .row1 {
+        display: flex;
+    }
+    
+    .column-header {
+        margin-block-end: 0;
+    }
+    
+    .join-us {
+        margin: 1em;
+    }
+    
+    .create-an-account {
+        margin: 1em;
+        min-width: 64%;
+    }
+    
+    .img1 {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .img2 {
+        width: 100%;
+    }
+    
+    .row2 {
+        display: flex;
+    }
+    
+    .propose-a-network {
+        margin: 1em;
+        flex-basis: 33%;
+    }
+    
+    .propose-a-network .caption {
+        padding-bottom: 10%;
+    }
+    
+    .img3 {
+        width: 100%;
+    }
+    
+    .network-editor {
+        margin: 1em;
+        flex-basis: 33%;
+    }
+    
+    .img4 {
+        width: 100%;
+    }
+    
+    .advisory-board  {
+        margin: 1em;
+        flex-basis: 33%;
+    }
+    
+    .img5 {
+        width: 100%;
+    }
+    
+    .go-home-container {
+        text-align: center;
+        margin: 2em;
+    }
+    
+    .go-home {
+        font-size: 1.3em;
+        background-color: white;
+        padding: .5em;
+        border-radius: .5em;
+    }
+    
+    .go-home:link {
+        color: rgb(51, 51, 51); 
+    }
+    
+    .go-home:visited {
+        color: rgb(51, 51, 51); 
+    }
+    
+    .go-home:hover {
+        color: rgb(51, 51, 51);
+    }
+    
+    }
+    
 @media only screen and (max-width: 1000px) {
 
 html, body {
