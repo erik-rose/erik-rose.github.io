@@ -309,7 +309,7 @@
     }
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) {
+@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1200px) {
     /*Fixes white space in margin*/
     html, body {
         min-height: 100%;
@@ -619,7 +619,6 @@
         height: 100%;
     }
 }
-
 
 @media screen and (min-width: 1000px) and (max-width: 1200px) {
     /*Fixes white space in margin*/
