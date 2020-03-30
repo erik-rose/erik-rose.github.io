@@ -94,6 +94,7 @@ html, body {
     font-size: 1.3em;
     background-color: white;
     padding: .5em;
+    box-shadow: 3px 5px #888888;
     border-radius: .5em;
 }
 
