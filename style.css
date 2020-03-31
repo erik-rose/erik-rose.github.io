@@ -672,7 +672,7 @@
     }
     
     #h-net-logo {
-        padding-left: 10%; /*Might add media rule here*/
+        padding-left: 2%; /*Might add media rule here*/
         padding-top: 4%;
         max-width: 95%;
         width: auto;
@@ -684,11 +684,11 @@
         padding-top: 5%;
         padding-left: 50%;
         font-family: sans-serif;
-        font-size: 28px;
+        font-size: 22px;
         font-weight: bold;
         display: block;
         text-align: left;
-        word-spacing: 1.2em;
+        word-spacing: .5em;
     }
     
     a {
