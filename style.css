@@ -309,7 +309,7 @@
     }
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1200px) {
+@media screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1200px), screen and (min-resolution: 144dpi) and (min-width: 1200px) {
     /*Fixes white space in margin*/
     html, body {
         min-height: 100%;
@@ -1287,3 +1287,4 @@
         object-fit: cover;
     }
 }
+
