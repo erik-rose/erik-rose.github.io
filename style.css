@@ -1382,7 +1382,7 @@
         background-image: url('img/front_page_image_2.jpg');
         background-blend-mode: color;
         background-size: cover;
-        min-height: 170vh;
+        min-height: 180vh;
         height: 100%;
         position: relative;
     }
