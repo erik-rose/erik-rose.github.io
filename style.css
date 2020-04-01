@@ -1382,7 +1382,7 @@
         background-image: url('img/front_page_image_2.jpg');
         background-blend-mode: color;
         background-size: cover;
-        min-height: 160vh;
+        min-height: 170vh;
         height: 100%;
         position: relative;
     }
@@ -1398,6 +1398,7 @@
         color: white;
         font-weight: bold;
         text-align: left;
+        display: none;
         margin-left: 3%;
         font-family: sans-serif;
         padding-top: 15%;
