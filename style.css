@@ -1565,7 +1565,7 @@
     }
 
     .services-logo-container {
-        padding: 5% 0 15% 18%;
+        padding: 5% 0 15% 20%;
     }
 
     div.services-logo-container img {
@@ -1578,7 +1578,6 @@
         background-color: #faf8e8bd;
         padding: 3%;
         border-width: 5px;
-        width: 100%;
         font-family: sans-serif;
         font-size: 19px;
         text-align: center;
