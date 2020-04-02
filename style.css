@@ -1382,7 +1382,7 @@
         background-image: url('img/front_page_image_2.jpg');
         background-blend-mode: color;
         background-size: cover;
-        min-height: 90vh;
+        min-height: 180vh;
         height: 100%;
         position: relative;
     }
@@ -1398,6 +1398,7 @@
         color: white;
         font-weight: bold;
         text-align: left;
+        display: none;
         margin-left: 3%;
         font-family: sans-serif;
         padding-top: 15%;
@@ -1564,12 +1565,7 @@
     }
 
     .services-logo-container {
-        padding-top: 5%;
-        padding-bottom: 15%;
-        float: left;
-        position: absolute;
-        padding-left: 8%;
-        padding-right: 8%;
+        padding: 5% 0 15% 18%;
     }
 
     div.services-logo-container img {
@@ -1580,10 +1576,9 @@
 
     #logo-caption-container {
         background-color: #faf8e8bd;
-        position: absolute;
-        margin: 55vh 5vh 0 5vh;
         padding: 3%;
         border-width: 5px;
+        width: 100%;
         font-family: sans-serif;
         font-size: 19px;
         text-align: center;
