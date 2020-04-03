@@ -1315,7 +1315,7 @@
         color: white;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 4vh;
+        font-size: 7vh;
         display: block;
     }
 
@@ -1336,7 +1336,7 @@
     }
       
     a.icon {
-        font-size: 4vh;
+        font-size: 7vh;
     }
 
     .topnav a:hover {
@@ -1347,7 +1347,7 @@
     .active {
         background-color: #222222;
         color: white;
-        min-height: 4vh;
+        min-height: 8vh;
         font-size: 500px;
         font-family: sans-serif;
     }
@@ -1373,7 +1373,7 @@
     }
 
     .active img {
-          height: 3vh;
+          height: 6vh;
           padding-right: 10px;
     }
 
