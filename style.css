@@ -1607,7 +1607,7 @@
     }
     
     .footer-container {
-        height: 85px;
+        height: 130px;
         margin: 0 0 0 0;
         padding: 0;
         width: 100%;
@@ -1623,12 +1623,12 @@
     
     div.footer {
         font-family: sans-serif;
-        font-size: 7px;
+        font-size: 11px;
         text-align: left;
     }
 
     p.first-line {
-        font-size: 10px;
+        font-size: 16px;
     }
 
     .foot-logo {
